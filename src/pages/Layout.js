@@ -8,8 +8,8 @@ const Layout = () => {
   return (
     <>
     
-       <Navbar variant = "light" expand="lg">
-        <Container>
+       <Navbar sticky="top" variant = "light" expand="lg">
+        <Container id = "navbar_container">
           <Navbar.Brand href="#home">Where We Wait</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -21,7 +21,7 @@ const Layout = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
+    
       <Outlet />
     </>
   )

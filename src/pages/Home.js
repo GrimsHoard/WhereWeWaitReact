@@ -23,7 +23,7 @@ const Caption = () => {
   
   return (
     
-      <div className="bgimg-1">
+      <div className="bgimg-1" id="home_back">
         <div className="caption">
           <span className="title">Where We Wait</span><br />
           <p className="lead">A thriller text based adventure game.</p>

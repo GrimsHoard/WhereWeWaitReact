@@ -28,6 +28,12 @@
     color: black;
 }
 
+.lowerTitle h1 {
+  font-size: 50px;
+  margin-left: 5%;
+  padding-bottom: 5%;
+}
+
 /*CONTACT*/
 .contact-wrapper {
     padding-top: 10%;

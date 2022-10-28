@@ -26,23 +26,23 @@ const FunFacts = () => {
     <div className = "color">
     
     <div className = "midTitle">
-            <h1>Venture through a shattered world</h1>
+            <h1>Explore a shattered world where memory and nightmare are one in the same</h1>
         </div>
         
         
       <div className = "wrapper"> 
       
+
           <div className="container" >
             <div className="row">
               <div className="col-sm">
                 <img id = "hand" alt = "hand" src={Me}/>
               </div>
               <div className="col-sm" id ="text">
-                <h3>A Brief Preface</h3>
-          			<p>Where We Wait is a text based adventure game designed to lead your through a series of introspective 
-          			puzzles in This Place. A broken fragment of a world you think you might have once known but can’t quite 
-          			remember….</p>
-          			<p>If your interested in more lore and concept art, visit our <Link id = "link" to = "/about">About</Link> page!</p>
+          			<h3>Join US</h3>
+          			<p>This where some nice text and taglines will go to explain some features and puzzles of the story in a vague 
+          			but interesting way...hopefully that is. One day thsi entire website will be finished being built but that day is
+          			not today apparenatly. Writing an entire story is hard.</p>
               </div>
             </div>
           </div>
@@ -53,10 +53,10 @@ const FunFacts = () => {
                 <img id = "star" alt = "star" src={We}/>
               </div>
               <div className="col-sm" id="text">
-                <h3>Play Demo</h3>
-          			<p>The first version of Where We Wait takes the format of a text based adventure game. For now this is all that is offered, 
-          			but one day an interactive graphic novel will take its place.</p>
-          			<p>Play <Link id = "link" to = "/demo">Demo</Link> now!</p>
+          		<h3>Venture through This Place</h3>
+          			<p>This where some nice text and taglines will go to explain some features and puzzles of the story in a vague 
+          			but interesting way...hopefully that is. One day thsi entire website will be finished being built but that day is
+          			not today apparenatly. Writing an entire story is hard.</p>
               </div>
             </div>
           </div>
@@ -71,7 +71,9 @@ const Behind = () => {
     return (
             <>
             
-
+    <div class = "lowerTitle">
+        <h1>Behind the Scenes</h1>
+    </div>
     <Container id="about_container">
       <Row>
         <Col md id="about_cols">
